@@ -16,10 +16,12 @@ class Controller
 private:
     //Just like Java data members and internal methods
 
+protected:
+    
 public:
     //Externally visible
     Controller();
     void start();
-}
+};
 
 #endif /* Controller_hpp */
